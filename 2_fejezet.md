@@ -1,0 +1,22 @@
+- **1; Milyen lépésekben történik egy program elkészítése és betöltése?**
+	- forráskód elkészítése egy szövegszerkesztőben(editor) a forráskódot lefordítjuk compiler-el, linker segítségével előállítjuk a betölthető programot, majd a loader használatával elhelyezzük a programot a rendszer memóriájában.
+
+- **4; Ismertesse az ablakozó rendszerek működési elvét a kliens-szerver modell alapján**
+	- Az ablakozó rendszerek a kliens-szerver modell alapján működnek, ahol a kliens (böngésző) kérelmet küld a szervernek (webszerver) egy adott tartalom eléréséhez
+	- A szerver válaszol a kérésre, és az eredményt visszaküldi a kliensnek, amely azt megjeleníti a felhasználó számára az ablakozóban. 
+	- A kommunikáció HTTP protokollon keresztül történik, és lehetővé teszi a felhasználók számára az interneten való böngészést és az online tartalmak elérését.
+- **5; Mik az alrendszerek? Mi az alkalmazásuk előnye és hátránya? Milyen fontosabb alrendszereket ismer?**
+	- GUI alrendszerek: 
+		- előny: segíti a felhasználóbarát felületek készítését és kezelését
+		- hátrány: időigényes a felhasználói felületek fejlesztése, gyakran sok erőforrást igényel
+	- adatbázis-kezelők:
+		- segítik az adatbázisokat átláthatóan tárolni
+		- viszont hátránya hogy sok erőforrást igényelhet egy bonyolultabb lekérdezés esetén
+- **6; Melyek egy programfejlesztői alrendszer fontosabb elemei? Hogyan segítik a programfejlesztést?** 
+	- kódszerkesztő: ez teszi lehetővé a forráskód írását és szerkesztését, biztosít kódszínezést és kódkiegészítést
+	- projektkezelő: segítségével könnyedén válthatunk a projektünk különböző fájljai és mappái között.
+	- verziókezelő integráció: például a Git, segítségével könnyen dokumentálható, és visszafordítható egy-egy kódmódosítás
+- **7; Mi a fordító, a szerkesztő és a betöltő programok fő feladata?**
+	- a fordító(compiler) feladata lefordítani a megírt programunkat a gép által érthető nyelvre fordítani
+	- a szerkesztő(linker) feladata a tárgykódú modulok címeinek összehangolása, a betölthető program(executable) előállítása
+	- a betöltő(loader) program már az operációs rendszer magjához tartozik, feladata a végrehajtható program elhelyezése a memóriában, a betöltéssel válik egy program folyamattá
